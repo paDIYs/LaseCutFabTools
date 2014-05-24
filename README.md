@@ -15,6 +15,7 @@ List of Tools:
   http://www.gedankensuppe.de/kerf-bending-patterns
   
 How to install:
+screencast install tutorial http://vimeo.com/95678423
 You can use this software with Rhino windows and Rhino mac version.
 You need to put the .py files in a folder on your pc and add a toolbar and a button for each of one tool.
 
