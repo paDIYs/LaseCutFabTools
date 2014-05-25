@@ -6,6 +6,7 @@ This is the alfa version of laserCut useful tools for Rhinoceros
 Requirements:
 - McNeel Rhinoceros 5
 - Python 2.7
+ https://www.python.org/download/releases/2.7.6/
 
 List of Tools:
 - Time: Estimate time of laserCut working
