@@ -2,14 +2,14 @@ import rhinoscriptsyntax as rs
 
 rs.EnableRedraw(False)
 # Get Box dimensions
-w = rs.GetInteger("Width of the base [mm], this must be the longest side")
-h = rs.GetInteger("Height of the base [mm]")
-H = rs.GetInteger("Depth of the box [mm]")
+w = rs.GetInteger("Width of the base, this must be the longest side")
+h = rs.GetInteger("Height of the base")
+H = rs.GetInteger("Depth of the box")
 rec = rs.AddRectangle([0,0,0], w, h)
 lns = rs.ExplodeCurves(rec, True)
 # Get notchedd parameers
-jLen = rs.GetInteger("Joins lenght [mm]")
-yThick = rs.GetReal("Thickness of the material [mm]")
+jLen = rs.GetInteger("Joins lenght")
+yThick = rs.GetReal("Thickness of the material")
 xThick = yThick
 # Set the number of teeth
 nJoinsW = int (w/jLen)
