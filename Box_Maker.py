@@ -8,7 +8,7 @@ H = rs.GetInteger("Depth of the box")
 rec = rs.AddRectangle([0,0,0], w, h)
 lns = rs.ExplodeCurves(rec, True)
 # Get notchedd parameers
-jLen = rs.GetInteger("Joins lenght")
+jLen = rs.GetInteger("Joins length")
 yThick = rs.GetReal("Thickness of the material")
 xThick = yThick
 # Set the number of teeth

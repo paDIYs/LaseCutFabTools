@@ -8,7 +8,7 @@ lns = rs.GetObject("Select one curve", 4, True, True )
 w = rs.CurveLength(lns)
 
 # Get the parameters of the notched
-jLen = rs.GetInteger("Joins lenght")
+jLen = rs.GetInteger("Joins length")
 yThick = rs.GetReal("Thickness of the material")
 xThick = yThick
 vers = rs.GetReal("put 1 if the line is vertical, put 2 if the line is horizontal")

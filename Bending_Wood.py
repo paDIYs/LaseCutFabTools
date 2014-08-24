@@ -4,7 +4,7 @@ rs.EnableRedraw(False)
 #Get Kerf parameters for bending
 obj_0 = rs.GetObject("Select the bottom line", 4)
 obj_1 = rs.GetObject("Select the left line", 4)
-l = rs.GetInteger("Segments lenght [mm]")
+l = rs.GetInteger("Segments length [mm]")
 dis = rs.GetInteger("Distance x from the segments [mm]")
 sp = rs.GetInteger("Distance y from the segments [mm]")
 # Set the length of the segment
