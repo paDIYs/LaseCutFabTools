@@ -1,0 +1,16 @@
+*{padding: 0px; margin:0px; font-family:Arial, Helvetica, sans-serif;}
+
+footer{
+   clear:both;
+   background-color:black;
+   height:60px;
+   padding: 25px 0px 0px 30px;
+   margin-top:20px;  
+}
+
+/*mediaquery*/
+
+@media screen and (max-width: 480px){
+   
+#im{display:none;}
+#imag{display:none;}
